@@ -175,7 +175,7 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers
   awesome_print
-  bundler-audit
+  bundler-audit (>= 0.5.0)
   byebug
   database_cleaner (~> 1.5, >= 1.5.3)
   dotenv-rails
