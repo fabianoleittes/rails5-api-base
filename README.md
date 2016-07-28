@@ -34,15 +34,24 @@ After setting up, you can run the application using [Heroku Local]:
 ### What's included
 
 ### Application gems:
+* [Puma](https://github.com/puma/puma) as rails web server.
+* [Rack CORS](https://github.com/cyu/rack-cors) for [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing).
+* [Responders](https://github.com/plataformatec/responders) a set of Rails responders to dry up your application.
+
 
 ### Development gems
+* [Bullet](https://github.com/flyerhzm/bullet) gem to kill N+1 queries and unused eager loading.
+* [Brakeman](https://github.com/presidentbeef/brakeman) static analysis security vulnerability scanner.
+* [Bundler Audit](https://github.com/rubysec/bundler-audit) Patch-level verification for Gems.
+* [Spring](https://github.com/rails/spring) for fast Rails actions via pre-loading.
+
 
 
 ### Testing gems
 
-* [Factory Girl](https://github.com/thoughtbot/factory_girl) for easier creation of test data
-* [RSpec](https://github.com/rspec/rspec) for awesome, readable isolation testing
-* [Shoulda Matchers](http://github.com/thoughtbot/shoulda-matchers) for frequently needed Rails and RSpec matchers
+* [Factory Girl](https://github.com/thoughtbot/factory_girl) for easier creation of test data.
+* [RSpec](https://github.com/rspec/rspec) for awesome, readable isolation testing.
+* [Shoulda Matchers](http://github.com/thoughtbot/shoulda-matchers) for frequently needed Rails and RSpec matchers.
 
 ### Initializes
 
