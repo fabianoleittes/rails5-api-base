@@ -8,6 +8,10 @@ Clone the repository and get inside it:
 
     % git clone git://github.com/fabianoleittes/rails5-api-base.git --origin rails5-api-base [MY-NEW-PROJECT]
 
+Rename whole project and reset README.md:
+
+    % ./bin/rename_project YourProjectName
+
 After you have cloned this repo, run this setup script to set up your machine
 with the necessary dependencies to run and test this app:
 
