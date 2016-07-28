@@ -19,6 +19,8 @@ group :development, :test do
   gem "dotenv-rails"
   gem "pry-byebug"
   gem "pry-rails"
+  gem "brakeman"
+  gem "rubocop"
 end
 
 group :development do
