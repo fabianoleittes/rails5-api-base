@@ -1,5 +1,7 @@
 # Base Rails 5 Application for REST API
 
+[![Code Climate](https://codeclimate.com/github/fabianoleittes/rails5-api-base/badges/gpa.svg)](https://codeclimate.com/github/fabianoleittes/rails5-api-base)
+
 Application currently based on Rails 5 stable branch and Ruby 2.3.1
 
 ## Getting Started
