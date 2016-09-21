@@ -1,0 +1,14 @@
+language: ruby
+rvm:
+  - 2.3.1
+  - jruby
+  - rbx-2
+
+script:
+  - bin/ci
+
+addons:
+  code_climate:
+    repo_token: 4522d3c34fd9479683bee8a670d76d9f256077921bc30ebec9d21b9725292908
+# uncomment and edit the following line if your project needs to run something other than `rake`:
+# script: bundle exec rspec spec
